@@ -1,0 +1,44 @@
+* {
+    transition: .5s;
+}
+.slider__container {
+    margin-top: 100px;
+    background: lightcyan;
+}
+.slider__dot span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000;
+}
+.slider__content {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+.slider__view {
+    background: lightgray;
+    font-size: 24px;
+    display: none;
+}
+.active {
+    display: block;
+}
+.slider__menu {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    margin-top: 25px;
+    gap: 10px;
+    cursor: pointer;
+}
+.slider__dot span:hover {
+    background: gray;
+}
+.slider__button {
+    margin-top: 50px;
+}
+.slider__btn {
+    transition: none;
+}
